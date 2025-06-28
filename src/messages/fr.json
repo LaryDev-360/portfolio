@@ -1,0 +1,44 @@
+{
+  "header": {
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact",
+    "hire": "Me contacter"
+  },
+  "hero": {
+    "title": "Je suis Lary, développeur full stack",
+    "subtitle": "Je crée des applications web modernes et performantes.",
+    "description": "Passionné par la résolution de problèmes et le code propre, je donne vie aux idées grâce au design, aux données et au développement.",
+    "viewWork": "Voir mes projets",
+    "contactMe": "Me contacter"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "description": "Développeur backend avec un fort intérêt pour les données et les technologies émergentes, je crée des solutions à fort impact."
+  },
+  "skills": {
+    "title": "Mes competences",
+    "subtitle": "Voici quelques technologies avec lesquelles j'ai travaillé ces derniers temps."
+  },
+  "projects": {
+    "title": "Mes projets",
+    "description": "Voici quelques projets sur lesquels j'ai récemment travaillé.",
+    "view": "Voir le projet"
+  },
+  "contact": {
+    "title": "Restons en contact",
+    "description": "Vous avez un projet en tête ou souhaitez simplement discuter ? N'hésitez pas à me contacter.",
+    "name": "Votre nom",
+    "email": "Votre adresse e-mail",
+    "my_email": "laryenockh@gmail.com",
+    "my_linkedin": "https://www.linkedin.com/in/lary-hountokoude-3bb926263/",
+    "my_github": "https://github.com/LaryDev-360",
+    "message": "Votre message",
+    "send": "Envoyer",
+    "success": "Message envoyé avec succès !"
+  },
+  "footer": {
+    "rights": "© Lary Enock. Tous droits réservés.",
+    "backToTop": "Haut de page"
+  }
+}
