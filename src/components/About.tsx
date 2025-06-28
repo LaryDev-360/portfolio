@@ -1,5 +1,6 @@
 'use client';
 
+import type { Variants } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
@@ -66,14 +67,15 @@ export default function About() {
     }
   };
 
-  const cardVariants = {
+
+  const cardVariants: Variants = {
     hidden: { opacity: 0, y: 30, scale: 0.9 },
     visible: { 
       opacity: 1, 
       y: 0, 
       scale: 1,
       transition: {
-        type: "spring",
+        type: "spring" as const,
         damping: 20,
         stiffness: 100
       }
@@ -311,7 +313,7 @@ export default function About() {
                     margin: 0
                   }}
                 >
-                  Ready to collaborate? Let's build something amazing together.
+                  Ready to collaborate? Let&apos;s build something amazing together.
                 </p>
                 <button
                   className="btn-primary-glass"
@@ -326,7 +328,7 @@ export default function About() {
                     padding: '12px 28px'
                   }}
                 >
-                  <span>Let's Connect</span>
+                  <span>Let&apos;s Connect</span>
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M7 17L17 7" />
                     <path d="M7 7h10v10" />

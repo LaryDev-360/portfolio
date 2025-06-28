@@ -125,7 +125,7 @@ export default function Contact() {
                                         fontSize: '0.9rem'
                                     }}
                                 >
-                                    📬 Let's Connect
+                                    📬 Let&apos;s Connect
                                 </span>
                             </div>
 
