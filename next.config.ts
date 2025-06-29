@@ -1,18 +1,18 @@
 import createNextIntlPlugin from 'next-intl/plugin';
+import type { NextConfig } from 'next';
 
 const withNextIntl = createNextIntlPlugin('./next-intl.config.ts');
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
+        protocol: 'https' as const,
         hostname: 'accent-systems.com',
         pathname: '/**'
       },
       {
-        protocol: 'https',
+        protocol: 'https' as const,
         hostname: 'www.legalsupportworld.com',
         pathname: '/**'
       }
