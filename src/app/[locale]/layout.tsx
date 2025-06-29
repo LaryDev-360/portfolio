@@ -1,5 +1,9 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
+import { notFound } from 'next/navigation';
+
+// Import locales from your config
+const locales = ['en', 'fr'];
 
 export default async function LocaleLayout({
   children,
@@ -10,6 +14,12 @@ export default async function LocaleLayout({
 }) {
   // Await the params to get the actual values
   const { locale } = await params;
+  
+  // Validate locale
+  if (!locales.includes(locale)) {
+    notFound();
+  }
+  
   const messages = await getMessages({ locale });
 
   return (
